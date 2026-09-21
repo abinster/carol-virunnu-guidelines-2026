@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: carol-virunnu-2026-guidelines
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
