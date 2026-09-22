@@ -1,21 +1,21 @@
 :root {
-  --navy-950: #06271f;
-  --navy-900: #0d3b2e;
-  --navy-800: #155441;
-  --blue-600: #ad2737;
-  --blue-100: #fff0f2;
+  --navy-950: #09182c;
+  --navy-900: #102745;
+  --navy-800: #193a61;
+  --blue-600: #2467aa;
+  --blue-100: #eaf3fb;
   --gold-500: #d7ad52;
   --gold-100: #fff5d8;
   --red-700: #9f1f30;
   --red-100: #fff0f1;
-  --green-700: #176044;
-  --green-100: #eaf6ef;
-  --ink: #20352f;
-  --muted: #6e756e;
-  --line: #e3dccf;
+  --green-700: #2467aa;
+  --green-100: #eaf3fb;
+  --ink: #17243a;
+  --muted: #637086;
+  --line: #dce4ee;
   --paper: #fffdf9;
-  --page: #f7f2e9;
-  --shadow: 0 16px 45px rgba(21, 67, 52, .12);
+  --page: #f3f6fa;
+  --shadow: 0 16px 45px rgba(19, 42, 72, .12);
   --radius: 18px;
 }
 
@@ -55,7 +55,7 @@ a { color: inherit; }
   overflow: hidden;
   min-height: 650px;
   color: white;
-  background: radial-gradient(circle at 12% 18%, rgba(234, 194, 94, .23), transparent 30%), radial-gradient(circle at 88% 72%, rgba(181, 31, 49, .34), transparent 34%), linear-gradient(142deg, #05271f 0%, #0d4a38 56%, #721827 100%);
+  background: radial-gradient(circle at 12% 18%, rgba(234, 194, 94, .23), transparent 30%), radial-gradient(circle at 88% 72%, rgba(181, 31, 49, .34), transparent 34%), linear-gradient(142deg, #08192f 0%, #173f6d 58%, #721827 100%);
 }
 .hero::before {
   content: "";
@@ -118,7 +118,7 @@ a { color: inherit; }
 .print-button:hover { background: #f5f8fb; }
 
 main { min-width: 0; }
-.guideline-section { position: relative; margin-bottom: 22px; padding: 42px clamp(24px, 5vw, 58px) 48px; border: 1px solid rgba(70, 88, 72, .10); border-top: 3px solid rgba(173, 39, 55, .30); border-radius: var(--radius); background: var(--paper); box-shadow: 0 8px 30px rgba(24, 70, 55, .075); }
+.guideline-section { position: relative; margin-bottom: 22px; padding: 42px clamp(24px, 5vw, 58px) 48px; border: 1px solid rgba(25, 58, 97, .10); border-top: 3px solid rgba(173, 39, 55, .30); border-radius: var(--radius); background: var(--paper); box-shadow: 0 8px 30px rgba(19, 42, 72, .075); }
 .section-kicker { position: absolute; top: 32px; right: 38px; color: #e7edf4; font-family: "Playfair Display", Georgia, serif; font-size: 3.8rem; font-weight: 800; line-height: 1; }
 .section-title { position: relative; max-width: calc(100% - 80px); margin-bottom: 26px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .section-title::after { content: ""; position: absolute; bottom: -1px; left: 0; width: 64px; height: 3px; background: var(--gold-500); }
@@ -200,7 +200,7 @@ td strong { color: var(--navy-800); }
 .permission-card ul { margin: 0; padding-left: 20px; color: #45536a; }
 .permission-card li + li { margin-top: 9px; }
 .permission-symbol { position: absolute; right: 19px; top: 16px; font-size: 1.8rem; font-weight: 700; opacity: .35; }
-.permitted { border-color: #b9dbc9; background: var(--green-100); }
+.permitted { border-color: #bed5e7; background: var(--green-100); }
 .permitted h3, .permitted .permission-symbol { color: var(--green-700); }
 .prohibited { border-color: #e7c2c4; background: var(--red-100); }
 .prohibited h3, .prohibited .permission-symbol { color: var(--red-700); }
@@ -213,7 +213,7 @@ td strong { color: var(--navy-800); }
 .text-columns > div { padding: 20px; border-left: 3px solid var(--gold-500); background: #f8fafc; }
 .text-columns p { margin-bottom: 0; font-size: .9rem; }
 
-.closing-section { overflow: hidden; color: white; background: radial-gradient(circle at 90% 20%, rgba(225, 185, 83, .16), transparent 28%), linear-gradient(140deg, var(--navy-950), #0f4b39 58%, #741a29); }
+.closing-section { overflow: hidden; color: white; background: radial-gradient(circle at 90% 20%, rgba(225, 185, 83, .16), transparent 28%), linear-gradient(140deg, var(--navy-950), #193f6b 58%, #741a29); }
 .closing-section::after { content: "✦"; position: absolute; right: -20px; bottom: -74px; color: rgba(255,255,255,.045); font-size: 15rem; }
 .closing-section .section-kicker { color: rgba(255,255,255,.08); }
 .closing-section .section-title { border-color: rgba(255,255,255,.15); }
