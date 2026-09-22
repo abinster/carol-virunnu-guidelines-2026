@@ -36,6 +36,7 @@ body {
 }
 
 a { color: inherit; }
+.date-suffix { margin-left: .04em; font-size: .62em; line-height: 0; vertical-align: super; }
 .container { width: min(1180px, calc(100% - 40px)); margin-inline: auto; }
 
 .skip-link {
